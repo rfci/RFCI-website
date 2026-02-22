@@ -1,11 +1,11 @@
-@keyframes donate-spin {
+@keyframes rotate-donate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-.donate-spin {
+.donate-rotate {
+  animation: rotate-donate 2s linear infinite;
   display: inline-block;
-  animation: donate-spin 2s linear infinite;
 }
 #root {
   max-width: 1280px;

@@ -40,7 +40,7 @@ export default function Navbar() {
               to="/donate" 
               className="bg-green-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-green-700 transition shadow-lg shadow-green-900/10 flex items-center gap-2"
             >
-              Donate <Heart size={18} className="donate-spin fill-white/20" />
+              <span className="donate-rotate">Donate</span> <Heart size={18} className="fill-white/20" />
             </Link>
           </div>
         </div>
